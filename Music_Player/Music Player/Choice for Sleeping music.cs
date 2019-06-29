@@ -21,5 +21,10 @@ namespace Music_Player
         {
 
         }
-    }
+
+		private void Form2_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }

@@ -28,7 +28,7 @@ namespace Music_Player
 
 		private void Background_Music_Player_Load(object sender, EventArgs e)
 		{
-			string[] songs = Directory.GetFiles(@"D:\school shit\четврти семестар\вп\Project\Музика за проектот\Ambient aka Background", "*.wav", SearchOption.TopDirectoryOnly);
+			string[] songs = Directory.GetFiles(@"C:\Users\Robert\Downloads\New Folder (2)", "*.wav", SearchOption.TopDirectoryOnly);
 			//TODO: da se smeni so tocniot folder
 			foreach(string i in songs)
 			{
@@ -40,31 +40,23 @@ namespace Music_Player
 
 		private void btn_Play_Click(object sender, EventArgs e)
 		{
-				Play(listBox1.SelectedItem as Song);
+			var song = listBox1.SelectedItem as Song;
+			song.Play(player);
+			tbPlaying.Text = song.ToString();
 		}
 
 		private void btn_Stop_Click(object sender, EventArgs e)
 		{
 			player.Stop();
+			tbPlaying.Text = "";
 		}
 
 		private void btn_Random_Click(object sender, EventArgs e)
 		{
 			int index = random.Next(listBox1.Items.Count - 1);
-			Play(listBox1.Items[index] as Song);
-		}
-		private void Play(Song song)
-		{
-			try
-			{
-				player.SoundLocation = song.Path;
-				player.Play();
-				tbPlaying.Text = song.ToString();
-			}
-			catch (Exception ex)
-			{
-				MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-			}
+			var song = listBox1.Items[index] as Song;
+			song.Play(player);
+			tbPlaying.Text = song.ToString();
 		}
 
 		private void btn_Mute_Click(object sender, EventArgs e)
