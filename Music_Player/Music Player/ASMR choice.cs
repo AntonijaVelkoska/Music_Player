@@ -16,5 +16,10 @@ namespace Music_Player
         {
             InitializeComponent();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
