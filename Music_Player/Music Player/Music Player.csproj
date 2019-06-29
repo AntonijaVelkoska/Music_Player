@@ -88,6 +88,7 @@
     <Compile Include="Modern music.Designer.cs">
       <DependentUpon>Modern music.cs</DependentUpon>
     </Compile>
+    <Compile Include="Song.cs" />
     <Compile Include="Talking ASMR.cs">
       <SubType>Form</SubType>
     </Compile>

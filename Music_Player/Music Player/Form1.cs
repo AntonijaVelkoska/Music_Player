@@ -31,14 +31,16 @@ namespace Music_Player
 		{
 			Background_Music_Player backgrnd = new Background_Music_Player();
 			this.Visible = false;
-			backgrnd.Show();
+			backgrnd.ShowDialog();
+			this.Close();
 		}
 
 		private void btn_Sleep_Click(object sender, EventArgs e)
 		{
 			Form2 sleeping = new Form2();
 			this.Visible = false;
-			sleeping.Show();
+			sleeping.ShowDialog();
+			this.Close();
 		}
 	}
 }
