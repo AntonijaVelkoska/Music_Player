@@ -28,7 +28,7 @@ namespace Music_Player
 
 		private void Background_Music_Player_Load(object sender, EventArgs e)
 		{
-			string[] songs = Directory.GetFiles(@"C:\Users\Robert\Downloads\New folder (2)", "*.wav", SearchOption.TopDirectoryOnly);
+			string[] songs = Directory.GetFiles(@"D:\school shit\четврти семестар\вп\Project\Музика за проектот\Ambient aka Background", "*.wav", SearchOption.TopDirectoryOnly);
 			//TODO: da se smeni so tocniot folder
 			foreach(string i in songs)
 			{
