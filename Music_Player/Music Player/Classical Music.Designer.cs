@@ -84,6 +84,7 @@
 			this.btn_Stop.TabIndex = 3;
 			this.btn_Stop.Text = "Stop";
 			this.btn_Stop.UseVisualStyleBackColor = true;
+			this.btn_Stop.Click += new System.EventHandler(this.btn_Stop_Click);
 			// 
 			// listBox1
 			// 
@@ -105,6 +106,7 @@
 			this.btn_Play.Text = "Play";
 			this.btn_Play.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
 			this.btn_Play.UseVisualStyleBackColor = true;
+			this.btn_Play.Click += new System.EventHandler(this.btn_Play_Click);
 			// 
 			// btn_Random
 			// 
@@ -115,6 +117,7 @@
 			this.btn_Random.TabIndex = 0;
 			this.btn_Random.Text = "Random";
 			this.btn_Random.UseVisualStyleBackColor = true;
+			this.btn_Random.Click += new System.EventHandler(this.btn_Random_Click);
 			// 
 			// btnBack
 			// 

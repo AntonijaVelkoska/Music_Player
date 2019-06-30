@@ -58,15 +58,10 @@ namespace Music_Player
 		{
 			player.Stop();
 			tbPlaying.Text = "";
-			Form1 form1 = new Form1();
+			Instrumental instrumental = new Instrumental();
 			this.Visible = false;
-			form1.ShowDialog();
+			instrumental.ShowDialog();
 			this.Close();
-		}
-
-		private void btn_Random_Click_1(object sender, EventArgs e)
-		{
-
 		}
 	}
 }
