@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Music_Player
 {
-    public partial class Form2 : Form
+    public partial class Sleep_Music : Form
     {
-        public Form2()
+        public Sleep_Music()
         {
             InitializeComponent();
         }
@@ -26,5 +26,21 @@ namespace Music_Player
 		{
 
 		}
-	}
+
+        private void btn_Asmr_Click(object sender, EventArgs e)
+        {
+            ASMR_Choice asmr = new ASMR_Choice();
+            this.Visible = false;
+            asmr.ShowDialog();
+            this.Close();
+        }
+
+        private void btn_Instrumental_Click(object sender, EventArgs e)
+        {
+            Instrumental instrumental = new Instrumental();
+            this.Visible = false;
+            instrumental.ShowDialog();
+            this.Close();
+        }
+    }
 }

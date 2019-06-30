@@ -1,6 +1,6 @@
 ﻿namespace Music_Player
 {
-    partial class Form4
+    partial class Talk
     {
         /// <summary>
         /// Required designer variable.
@@ -54,7 +54,7 @@
             this.groupBox1.Size = new System.Drawing.Size(376, 357);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "List of Background music";
+            this.groupBox1.Text = "List of talking ASMR";
             // 
             // label1
             // 
@@ -117,14 +117,15 @@
             this.btn_Random.Text = "Random";
             this.btn_Random.UseVisualStyleBackColor = true;
             // 
-            // Form4
+            // Talk
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(391, 401);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form4";
+            this.Name = "Talk";
             this.Text = "Talking ASMR";
+            this.Load += new System.EventHandler(this.Form4_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

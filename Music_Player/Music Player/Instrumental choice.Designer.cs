@@ -1,6 +1,6 @@
 ﻿namespace Music_Player
 {
-    partial class Form6
+    partial class Instrumental
     {
         /// <summary>
         /// Required designer variable.
@@ -56,6 +56,7 @@
             this.btn_Regular.TabIndex = 7;
             this.btn_Regular.Text = "Modern music";
             this.btn_Regular.UseVisualStyleBackColor = true;
+            this.btn_Regular.Click += new System.EventHandler(this.btn_Regular_Click);
             // 
             // btn_Classical
             // 
@@ -67,8 +68,9 @@
             this.btn_Classical.TabIndex = 6;
             this.btn_Classical.Text = "Classical music";
             this.btn_Classical.UseVisualStyleBackColor = true;
+            this.btn_Classical.Click += new System.EventHandler(this.btn_Classical_Click);
             // 
-            // Form6
+            // Instrumental
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -76,7 +78,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Regular);
             this.Controls.Add(this.btn_Classical);
-            this.Name = "Form6";
+            this.Name = "Instrumental";
             this.Text = "Choices for Instrumental music";
             this.ResumeLayout(false);
             this.PerformLayout();

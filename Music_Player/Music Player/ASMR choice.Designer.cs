@@ -1,6 +1,6 @@
 ﻿namespace Music_Player
 {
-    partial class Form3
+    partial class ASMR_Choice
     {
         /// <summary>
         /// Required designer variable.
@@ -56,6 +56,7 @@
             this.btn_Talking.TabIndex = 7;
             this.btn_Talking.Text = "Talking ASMR";
             this.btn_Talking.UseVisualStyleBackColor = true;
+            this.btn_Talking.Click += new System.EventHandler(this.btn_Talking_Click);
             // 
             // btn_no_talking
             // 
@@ -67,8 +68,9 @@
             this.btn_no_talking.TabIndex = 6;
             this.btn_no_talking.Text = "No Talking ASMR";
             this.btn_no_talking.UseVisualStyleBackColor = true;
+            this.btn_no_talking.Click += new System.EventHandler(this.btn_no_talking_Click);
             // 
-            // Form3
+            // ASMR_Choice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -76,7 +78,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Talking);
             this.Controls.Add(this.btn_no_talking);
-            this.Name = "Form3";
+            this.Name = "ASMR_Choice";
             this.Text = "Choice for ASMR";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);

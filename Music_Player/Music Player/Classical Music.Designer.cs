@@ -54,7 +54,7 @@
             this.groupBox1.Size = new System.Drawing.Size(376, 357);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "List of Background music";
+            this.groupBox1.Text = "List of Classical music";
             // 
             // label1
             // 
@@ -125,6 +125,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Classical_Music";
             this.Text = "Classical Music";
+            this.Load += new System.EventHandler(this.Classical_Music_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

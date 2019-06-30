@@ -37,7 +37,7 @@ namespace Music_Player
 
 		private void btn_Sleep_Click(object sender, EventArgs e)
 		{
-			Form2 sleeping = new Form2();
+			Sleep_Music sleeping = new Sleep_Music();
 			this.Visible = false;
 			sleeping.ShowDialog();
 			this.Close();

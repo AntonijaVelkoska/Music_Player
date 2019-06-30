@@ -10,11 +10,27 @@ using System.Windows.Forms;
 
 namespace Music_Player
 {
-    public partial class Form6 : Form
+    public partial class Instrumental : Form
     {
-        public Form6()
+        public Instrumental()
         {
             InitializeComponent();
+        }
+
+        private void btn_Classical_Click(object sender, EventArgs e)
+        {
+            Classical_Music classical = new Classical_Music();
+            this.Visible = false;
+            classical.ShowDialog();
+            this.Close();
+        }
+
+        private void btn_Regular_Click(object sender, EventArgs e)
+        {
+            Modern_music modern = new Modern_music();
+            this.Visible = false;
+            modern.ShowDialog();
+            this.Close();
         }
     }
 }

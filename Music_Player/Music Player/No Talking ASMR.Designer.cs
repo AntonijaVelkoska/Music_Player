@@ -1,6 +1,6 @@
 ﻿namespace Music_Player
 {
-    partial class Form5
+    partial class No_Talk
     {
         /// <summary>
         /// Required designer variable.
@@ -54,7 +54,7 @@
             this.groupBox1.Size = new System.Drawing.Size(376, 357);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "List of Background music";
+            this.groupBox1.Text = "List of no talking ASMR";
             // 
             // label1
             // 
@@ -106,6 +106,7 @@
             this.btn_Play.Text = "Play";
             this.btn_Play.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.btn_Play.UseVisualStyleBackColor = true;
+            this.btn_Play.Click += new System.EventHandler(this.btn_Play_Click);
             // 
             // btn_Random
             // 
@@ -117,14 +118,15 @@
             this.btn_Random.Text = "Random";
             this.btn_Random.UseVisualStyleBackColor = true;
             // 
-            // Form5
+            // No_Talk
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(397, 400);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form5";
+            this.Name = "No_Talk";
             this.Text = "No talking ASMR";
+            this.Load += new System.EventHandler(this.Form5_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
