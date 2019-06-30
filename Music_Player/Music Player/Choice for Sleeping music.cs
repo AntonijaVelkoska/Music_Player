@@ -42,5 +42,13 @@ namespace Music_Player
             instrumental.ShowDialog();
             this.Close();
         }
-    }
+
+		private void btnBack_Click(object sender, EventArgs e)
+		{
+			Form1 form1 = new Form1();
+			this.Visible = false;
+			form1.ShowDialog();
+			this.Close();
+		}
+	}
 }

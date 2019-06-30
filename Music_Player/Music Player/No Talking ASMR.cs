@@ -23,7 +23,7 @@ namespace Music_Player
 
         private void Form5_Load(object sender, EventArgs e)
         {
-            string[] songs = Directory.GetFiles(@"D:\school shit\четврти семестар\вп\Project\No talking ASMR", "*.wav", SearchOption.TopDirectoryOnly);
+            string[] songs = Directory.GetFiles(@"C:\Users\Robert\Downloads", "*.wav", SearchOption.TopDirectoryOnly);
             //TODO: da se smeni so tocniot folder
             foreach (string i in songs)
             {
@@ -53,5 +53,15 @@ namespace Music_Player
             song.Play(player);
             tbPlaying.Text = song.ToString();
         }
-    }
+
+		private void btnBack_Click(object sender, EventArgs e)
+		{
+			player.Stop();
+			tbPlaying.Text = "";
+			ASMR_Choice asmr = new ASMR_Choice();
+			this.Visible = false;
+			asmr.ShowDialog();
+			this.Close();
+		}
+	}
 }

@@ -32,5 +32,13 @@ namespace Music_Player
             modern.ShowDialog();
             this.Close();
         }
-    }
+
+		private void btnBack_Click(object sender, EventArgs e)
+		{
+			Sleep_Music sleep_Music = new Sleep_Music();
+			this.Visible = false;
+			sleep_Music.ShowDialog();
+			this.Close();
+		}
+	}
 }

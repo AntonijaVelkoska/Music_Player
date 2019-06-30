@@ -23,7 +23,7 @@ namespace Music_Player
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            string[] songs = Directory.GetFiles(@"D:\school shit\четврти семестар\вп\Project\Talking ASMR", "*.wav", SearchOption.TopDirectoryOnly);
+            string[] songs = Directory.GetFiles(@"C:\Users\Robert\Downloads", "*.wav", SearchOption.TopDirectoryOnly);
             //TODO: da se smeni so tocniot folder
             foreach (string i in songs)
             {

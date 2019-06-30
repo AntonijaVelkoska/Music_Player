@@ -15,15 +15,10 @@ C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\bin\Deb
 C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\bin\Debug\Music Player.exe
 C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\bin\Debug\Music Player.pdb
 C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music Player.csprojAssemblyReference.cache
-C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Form3.resources
 C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Classical_Music.resources
 C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Form1.resources
 C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Background_Music_Player.resources
-C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Form2.resources
-C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Form6.resources
 C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Modern_music.resources
-C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Form4.resources
-C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Form5.resources
 C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Properties.Resources.resources
 C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music Player.csproj.GenerateResource.cache
 C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music Player.csproj.CoreCompileInputs.cache
@@ -34,3 +29,8 @@ D:\school shit\четврти семестар\вп\Project\Music_Player\Music P
 D:\school shit\четврти семестар\вп\Project\Music_Player\Music Player\obj\Debug\Music_Player.Instrumental.resources
 D:\school shit\четврти семестар\вп\Project\Music_Player\Music Player\obj\Debug\Music_Player.Talk.resources
 D:\school shit\четврти семестар\вп\Project\Music_Player\Music Player\obj\Debug\Music_Player.No_Talk.resources
+C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.ASMR_Choice.resources
+C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Sleep_Music.resources
+C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Instrumental.resources
+C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.Talk.resources
+C:\Users\Robert\Documents\GitHub\Music_Player2\Music_Player\Music Player\obj\Debug\Music_Player.No_Talk.resources

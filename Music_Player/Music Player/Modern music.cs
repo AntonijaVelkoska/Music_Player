@@ -23,7 +23,7 @@ namespace Music_Player
 
         private void Modern_music_Load(object sender, EventArgs e)
         {
-            string[] songs = Directory.GetFiles(@"D:\school shit\четврти семестар\вп\Project\Modern music", "*.wav", SearchOption.TopDirectoryOnly);
+            string[] songs = Directory.GetFiles(@"C:\Users\Robert\Downloads", "*.wav", SearchOption.TopDirectoryOnly);
             //TODO: da se smeni so tocniot folder
             foreach (string i in songs)
             {
@@ -54,5 +54,19 @@ namespace Music_Player
             tbPlaying.Text = song.ToString();
         }
 
-    }
+		private void button1_Click(object sender, EventArgs e)
+		{
+			player.Stop();
+			tbPlaying.Text = "";
+			Form1 form1 = new Form1();
+			this.Visible = false;
+			form1.ShowDialog();
+			this.Close();
+		}
+
+		private void btn_Random_Click_1(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
